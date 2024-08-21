@@ -8,30 +8,30 @@ This project is a simple webpage for "Petstop," a fictional pet shop that specia
 
 ## Features
 
-### • Navigation Bar: A responsive navigation bar that includes links to different sections of the website—Home, About, Selections, and Contact.
+• Navigation Bar: A responsive navigation bar that includes links to different sections of the website—Home, About, Selections, and Contact.
 
-### • About Section: Provides an overview of the Petstop store, highlighting its commitment to providing high-quality pet products and services.
+• About Section: Provides an overview of the Petstop store, highlighting its commitment to providing high-quality pet products and services.
 
-### • Dog Selections Table: Displays a table listing different dog breeds along with characteristics such as ear type, coat, tail, and head shape.
+• Dog Selections Table: Displays a table listing different dog breeds along with characteristics such as ear type, coat, tail, and head shape.
 
-### • Search Functionality: Users can search Google and YouTube for more information about the listed dog breeds. Two separate search forms are included for Google and YouTube, respectively.
+• Search Functionality: Users can search Google and YouTube for more information about the listed dog breeds. Two separate search forms are included for Google and YouTube, respectively.
 
-### • Dog Selection Form: Allows users to select a dog breed, gender, age, and quantity. Users can input their contact details and submit the form for further processing.
+• Dog Selection Form: Allows users to select a dog breed, gender, age, and quantity. Users can input their contact details and submit the form for further processing.
 
-### • Contact Information: Provides the store's email and phone number for direct contact.
+• Contact Information: Provides the store's email and phone number for direct contact.
 
-### • Submission Handling: The form submission is handled using a Google Apps Script, which captures the submitted data and displays a confirmation message.
+• Submission Handling: The form submission is handled using a Google Apps Script, which captures the submitted data and displays a confirmation message.
 
 
 ## Technologies Used
 
-###• HTML & CSS: For structuring and styling the webpage.
+• HTML & CSS: For structuring and styling the webpage.
 
-### • Bootstrap 5: For responsive design and styling components.
+• Bootstrap 5: For responsive design and styling components.
 
-### • Google Fonts: Various fonts are imported for better typography.
+• Google Fonts: Various fonts are imported for better typography.
 
-### • FontAwesome: Used for adding icons to the website.
+• FontAwesome: Used for adding icons to the website.
 
 • Google Apps Script: Handles form submissions to capture user inputs.
 
