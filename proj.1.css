@@ -223,9 +223,9 @@ border-radius: 40px;
 
 @media (max-width: 1025px){
     table, th, td{
-        width: 400px;
-        padding: 7px;
-        font-size: 8px;
+        width: 300px;
+        padding: 5px;
+        font-size: 6px;
     }
 
     .sub, .search{
