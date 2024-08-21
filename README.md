@@ -1,4 +1,4 @@
-just-deen.github.io/post-requests-using-html-forms-and-google-sheets/ - hosted on github.
+https://just-deen.github.io/POST-requests-using-HTML-forms-and-Google-sheets/ - hosted on github.
 
 
 # Petstop Website
