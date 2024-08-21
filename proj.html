@@ -1,0 +1,221 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Aliu-Yamah Sheriff</title>
+    <link rel="stylesheet" href="proj.1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+  </head>
+</head>
+<body id="home">
+      <nav>
+        <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+              <i class="material-icons" style="font-size:36px">menu</i>
+          </label>
+          <span class="logo">PETSTOP.</span> 
+          <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#selections">Selections</a></li>
+                  <li><a href="#contact">Contact</a></li> 
+          </ul>
+      </nav>
+      <br>
+      <div class="wrap">
+          <div class="text">
+                <h1 class="text-center">Dogs of different kinds for everyone!</h1>
+          </div>
+          <div class="sub">
+              <div id="about">
+                At Petstop, we are dedicated to providing you with an exceptional selection of products and services to
+                meet all your pet care needs. Our team of knowledgeable veterinarians and experienced staff are here to
+                offer expert guidance and personalized advice, ensuring that your furry friends not only receive the
+                highest quality care but also thrive in their health and happiness. Whether you’re seeking premium food,
+                toys, or wellness products, we’re committed to helping you make informed choices that contribute to the
+                long-term well-being and vitality of your beloved dogs. Trust Petstop to be your partner in keeping your
+                pets healthy, vibrant, and content.
+              </div>
+          </div>
+          <br>
+          <div id="selections">
+                <i class="table">Make your selections from the table below;</i>
+          </div>
+          <div class="move">
+              <table>
+                <thead>
+                    <tr>
+                        <th>Breed</th>
+                        <th>Ears</th>
+                        <th>Coat</th>
+                        <th>Tail</th>
+                        <th>Head Shape</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Beagle</td>
+                        <td>long</td>
+                        <td>short-haired</td>
+                        <td>long</td>
+                        <td>round</td>
+                    </tr>
+                    <tr>
+                        <td>Irish setter</td>
+                        <td>long</td>
+                        <td>long-haired</td>
+                        <td>feathered</td>
+                        <td>long</td>
+                    </tr>
+                    <tr>
+                        <td>Boston terrier</td>
+                        <td>erect</td>
+                        <td>short-haired</td>
+                        <td>shortened</td>
+                        <td>square</td>
+                    </tr>
+                    <tr>
+                        <td>Pug</td>
+                        <td>short</td>
+                        <td>short-haired</td>
+                        <td>curly</td>
+                        <td>square</td>
+                    </tr>
+                    <tr>
+                        <td>Deerhound</td>
+                        <td>short</td>
+                        <td>wire-haired</td>
+                        <td>long</td>
+                        <td>long</td>
+                    </tr>
+                </tbody>
+              </table>
+          </div>
+          <br>
+          <br>
+          <div class="search">
+            Want to know more about the Dogs listed in the table to help you make your choice?, Use the search
+            bars below to help you know more about what dog you would like to buy!
+          </div>
+          <h6 class="middle">Make your search;</h6>
+          <form action="https://www.google.com" class="form1">
+              <input type="text" id="dog1" name="q" placeholder="keywords" class="form11">
+              <button class="btn1">Search Google</button>
+          </form>
+          <form action="https://www.youtube.com/results" class="form2">
+            <input type="text" id="dog2" name="search_query" placeholder="keywords" class="form11">
+            <button class="btn2">Search Youtube</button>
+              </form>
+              
+              <br>
+              <hr>
+          
+              <div class="selections">Done with making use of the search bars or you already know your choice?, proceed to making your
+            selections and adding your contact details;
+              </div>
+          
+              <br>
+          
+              <div class="bgform">
+            <form name="submit-to-google-sheet">
+                <h6>Select Dog type;</h6>
+                <label for="dog3" class="flabel">Dog type:</label>
+                <select name="Dog" id="dog3" class="select" required>
+                    <option value="">--please choose an option--</option>
+                    <option value="Beagle">Beagle</option>
+                    <option value="Irish setter">Irish setter</option>
+                    <option value="Pug">Pug</option>
+                    <option value="Deerhound">Deerhound</option>
+                    <option value="Boston terrier">Boston terrier</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <h6>Select Dog Gender;</h6>
+                <div>
+                    <input type="radio" name="Dog-gender" value="Male" id="Male" required>
+                    <label for="Male" class="flabel">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="Dog-gender" value="Female" id="Female" required>
+                    <label for="Female" class="flabel">Female</label>
+                </div>
+                <br>
+                <br>
+                <h6>Select Dog age;</h6>
+                <label for="dog4" class="flabel">Dog age:</label>
+                <select name="Dog-age" id="dog4" class="select2" required>
+                    <option value="">--please choose an option--</option>
+                    <option value="Puppy">Puppy</option>
+                    <option value="Adolescent">Adolescent</option>
+                    <option value="Senior">Senior</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <h6>Select quantity;</h6>
+                <label for="dog5" class="flabel">Quantity:</label>
+                <input type="number" id="dog5" class="select3" name="Quantity" required>
+                <br>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <div class="contact" id="contact">Provide your contact details below and click the "Submit" button. Your
+                    selections will be reviewed and we will get back to you.
+                </div>
+                <div class="fill1">
+                    <input type="text" name="Name" placeholder="Your Name" required class="fill">
+                    <br>
+                    <input type="email" name="Email" placeholder="Your Email" required class="fill">
+                    <br>
+                    <textarea name="Message" rows="6" placeholder="Your Message" class="fill"></textarea>
+                    <br>
+                    <button type="submit" class="btn3">Submit</button>
+                </div>
+            </form>
+              </div>
+      
+    <span id="msg"></span>
+
+    <div class="help">Contact us for more information;</div>
+    <p class="p5"><i id="envelope" class="fa fa-envelope" aria-hidden="true"></i> sheriffaliuyamah82@gmail.com</p>
+    <p class="p6"><i id="square" class="fa fa-phone-square" aria-hidden="true"></i>+2348107739669</p>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Sheriff.</p>
+      </div>
+    </div>
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzgvxM49_MCRSdVnNYG_smggEc4xPOdlbhQojifGMJiP4TGUgl-bna27XIDleLmcyW4/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {  
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+              msg.innerHTML = "Message sent successfully"
+              setTimeout(function(){
+                msg.innerHTML = ""
+              }, 900)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
