@@ -195,27 +195,9 @@
 
 
 
-
+    <script src="form-submission.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzgvxM49_MCRSdVnNYG_smggEc4xPOdlbhQojifGMJiP4TGUgl-bna27XIDleLmcyW4/exec'
-      const form = document.forms['submit-to-google-sheet']
-      const msg = document.getElementById("msg")
-    
-      form.addEventListener('submit', e => {  
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-              msg.innerHTML = "Message sent successfully"
-              setTimeout(function(){
-                msg.innerHTML = ""
-              }, 900)
-              form.reset()
-          })
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
 </body>
 </html>
