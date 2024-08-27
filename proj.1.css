@@ -1,3 +1,5 @@
+/* ESTABLISHING A CLEAN SLATE */
+
 *{
     padding: 0;
     margin: 0;
@@ -10,6 +12,8 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 65px;
 }
+
+/* NAVBAR STYLING */
 
 nav{
     background-color: #ffffff;
@@ -61,6 +65,8 @@ a:hover{
     transition: 500ms ease;
 }
 
+/* "PETSTOP" STYLING INSIDE NAVBAR */
+
 span.logo{
     color: black;
     font-family: 'Playfair Display', serif;
@@ -80,9 +86,10 @@ span.logo{
     text-align: center;
 }
 
+/* TABLE STYLING */
+
 .table{
     font-size: 13px;
-    /* margin-left: 190px; */
     text-align: center;
 }
 
@@ -98,6 +105,8 @@ table, th, td{
     border: 1px solid black !important;
 }
 
+/* GOOGLE AND YOUTUBE SEARCH BARS */
+
 .search{
     font-weight: 500;
     text-align: justify;
@@ -107,6 +116,8 @@ table, th, td{
     margin-top: 10px;
     text-align: center;
 }
+
+/* BUTTONS */
 
 .btn1, .btn2, .btn3{
 padding: 10px 25px;
@@ -179,6 +190,8 @@ border-radius: 40px;
     font-weight: 500;
 }
 
+/* CONTACT ICONS */
+
 #envelope, #square{
     color: black;
     font-size: 15px;
@@ -194,6 +207,8 @@ border-radius: 40px;
     font-weight: 500;
 }
 
+/* COPYRIGHT */
+
 .copyright{
     width: 100%;
     text-align: center;
@@ -208,6 +223,8 @@ border-radius: 40px;
     border-radius: 40px;
 }
 
+/* "SUCCESS MESSAGE" FOR FORM SUBMISSION*/
+
 #msg{
     font-family: 'inter', sans-serif;
     font-size: 12px;
@@ -217,9 +234,13 @@ border-radius: 40px;
     display: block;
 }
 
+/* FINAL FORMATTING */
+
 .wrap{
     margin: 0px 15px;
 }
+
+/* MEDIA QUERIES FOR PHONES AND TABLETS */
 
 @media (max-width: 1025px){
     table, th, td{
@@ -288,9 +309,7 @@ border-radius: 40px;
         padding: 0px 35px;
         font-weight: 900;
     }
-}
 
-@media (max-width: 1025px){
     .checkbtn{
         display: block;
         margin-top: 16px;
@@ -320,3 +339,6 @@ border-radius: 40px;
         left: 0;
     }
 }
+
+
+    
