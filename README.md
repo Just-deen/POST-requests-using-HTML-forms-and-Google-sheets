@@ -1,7 +1,7 @@
 https://just-deen.github.io/POST-requests-using-HTML-forms-and-Google-sheets/ - hosted on github.
 
 
-# Petstop Website
+## Overview 
 
 This project is a simple webpage for "Petstop," a fictional pet shop that specializes in selling different breeds of dogs. The website is built using HTML, CSS, and Bootstrap, with Google and YouTube search functionality embedded.
 
@@ -38,8 +38,6 @@ This project is a simple webpage for "Petstop," a fictional pet shop that specia
 
 ## Usage
 
-### To use the website:
-
 • Navigate through different sections using the menu.
 
 • View available dog breeds in the "Selections" section.
@@ -47,8 +45,3 @@ This project is a simple webpage for "Petstop," a fictional pet shop that specia
 • Use the provided search bars to gather more information about the dogs.
 
 • Fill in the form to make a selection and submit your contact details.
-
-
-## License
-
-This project is open-source and free to use.
