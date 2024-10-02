@@ -23,7 +23,7 @@ This project is a simple webpage for "Petstop," a fictional pet shop that specia
 7. 🎈 Submission Handling: The form submission is handled using a Google Apps Script, which captures the submitted data and displays a confirmation message.
 
 
-## Technologies Used
+## 📦 Technologies Used
 
 1. 🎈 HTML & CSS: For structuring and styling the webpage.
 
